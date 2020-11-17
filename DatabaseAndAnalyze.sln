@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Lab3CreateDatabase", "Lab3CreateDatabase\Lab3CreateDatabase.sqlproj", "{866A793B-B3DB-402E-B0BB-BC95AC555324}"
+EndProject
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Lab4OLAPbase", "Lab4OLAPbase\Lab4OLAPbase.dwproj", "{671C25BB-6868-41A8-AC92-7B1BD213D66D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Development|Any CPU = Development|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{866A793B-B3DB-402E-B0BB-BC95AC555324}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{866A793B-B3DB-402E-B0BB-BC95AC555324}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{866A793B-B3DB-402E-B0BB-BC95AC555324}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{866A793B-B3DB-402E-B0BB-BC95AC555324}.Development|Any CPU.ActiveCfg = Debug|Any CPU
+		{866A793B-B3DB-402E-B0BB-BC95AC555324}.Development|Any CPU.Build.0 = Debug|Any CPU
+		{866A793B-B3DB-402E-B0BB-BC95AC555324}.Development|Any CPU.Deploy.0 = Debug|Any CPU
+		{866A793B-B3DB-402E-B0BB-BC95AC555324}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{866A793B-B3DB-402E-B0BB-BC95AC555324}.Release|Any CPU.Build.0 = Release|Any CPU
+		{866A793B-B3DB-402E-B0BB-BC95AC555324}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{671C25BB-6868-41A8-AC92-7B1BD213D66D}.Debug|Any CPU.ActiveCfg = Development
+		{671C25BB-6868-41A8-AC92-7B1BD213D66D}.Debug|Any CPU.Build.0 = Development
+		{671C25BB-6868-41A8-AC92-7B1BD213D66D}.Debug|Any CPU.Deploy.0 = Development
+		{671C25BB-6868-41A8-AC92-7B1BD213D66D}.Development|Any CPU.ActiveCfg = Development
+		{671C25BB-6868-41A8-AC92-7B1BD213D66D}.Development|Any CPU.Build.0 = Development
+		{671C25BB-6868-41A8-AC92-7B1BD213D66D}.Development|Any CPU.Deploy.0 = Development
+		{671C25BB-6868-41A8-AC92-7B1BD213D66D}.Release|Any CPU.ActiveCfg = Development
+		{671C25BB-6868-41A8-AC92-7B1BD213D66D}.Release|Any CPU.Build.0 = Development
+		{671C25BB-6868-41A8-AC92-7B1BD213D66D}.Release|Any CPU.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {876D800A-2336-4750-8F71-4838BCB65157}
+	EndGlobalSection
+EndGlobal
