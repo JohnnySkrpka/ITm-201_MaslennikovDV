@@ -8,12 +8,12 @@
   </Database>
   <Cubes>
     <ProjectItem>
-      <Name>DiseasesCube.cube</Name>
-      <FullPath>DiseasesCube.cube</FullPath>
+      <Name>DiseaseCube.cube</Name>
+      <FullPath>DiseaseCube.cube</FullPath>
       <Dependencies>
         <ProjectItem>
-          <Name>DiseasesCube.partitions</Name>
-          <FullPath>DiseasesCube.partitions</FullPath>
+          <Name>DiseaseCube.partitions</Name>
+          <FullPath>DiseaseCube.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
@@ -50,12 +50,12 @@
       <FullPath>DiseasesDim.dim</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>АllowancesTypeDim.dim</Name>
-      <FullPath>АllowancesTypeDim.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
       <Name>MedicsDim.dim</Name>
       <FullPath>MedicsDim.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>АllowancesTypeDim.dim</Name>
+      <FullPath>АllowancesTypeDim.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>

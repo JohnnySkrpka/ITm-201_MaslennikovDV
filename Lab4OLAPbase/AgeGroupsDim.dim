@@ -1,4 +1,4 @@
-﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="86ab0d6a-9ee7-4bc8-8693-586d36de84ac" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="9abf896c-d71f-462a-b12e-bad0f94b9950" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>Age Groups</ID>
   <Name>Age Groups</Name>
   <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2144" scrolltop="-4591" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="7329" y="11060" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-2144" scrolltop="-4591" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="6456" y="12091" backcolor="2434342" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01cc0000900144420100065461686f6d61" />
             </font>
@@ -73,14 +73,9 @@
             <Shape Id="Id Age" Expanded="false">
               <Attributes>
                 <Attribute Id="Id Age" />
-              </Attributes>
-              <Position x="20" y="20" />
-            </Shape>
-            <Shape Id="Age Group" Expanded="false">
-              <Attributes>
                 <Attribute Id="Age Group" />
               </Attributes>
-              <Position x="137" y="20" />
+              <Position x="20" y="20" />
             </Shape>
           </Shapes>
         </DiagramLayout>
@@ -89,33 +84,32 @@
   </Annotations>
   <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
   <State>Unprocessed</State>
-  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="311ea4b1-1f1c-4228-9996-9be81efdd3ab">
+  <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="eb6cc211-6a7b-4c9e-9700-486fa747d2c2">
     <DataSourceViewID>Disease Tracking</DataSourceViewID>
   </Source>
-  <ErrorConfiguration dwd:design-time-name="19d65571-f200-4991-a32b-a29986ea67f7">
+  <ErrorConfiguration dwd:design-time-name="80231455-0f55-4cce-9400-2e29748e3222">
     <KeyNotFound>ReportAndStop</KeyNotFound>
     <KeyDuplicate>ReportAndStop</KeyDuplicate>
     <NullKeyNotAllowed>ReportAndStop</NullKeyNotAllowed>
   </ErrorConfiguration>
   <CurrentStorageMode>Molap</CurrentStorageMode>
   <Attributes>
-    <Attribute dwd:design-time-name="b2b995e5-ae69-4475-b303-a2085dcfc0b3">
+    <Attribute dwd:design-time-name="15de2a71-5f24-447d-9e71-d541279b2349">
       <ID>Id Age</ID>
       <Name>Id Age</Name>
       <Usage>Key</Usage>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="2dc562e4-babc-4c26-a1e4-0576b3a8bd17">
+        <KeyColumn dwd:design-time-name="3038b1dd-006f-43cf-bcf0-3b7df5163a6f">
           <DataType>Integer</DataType>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="033cb92e-6072-48ae-a68f-6a2aa0dfea0e">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="943afc0a-3a98-4786-ab1a-3f9ead25bfa9">
             <TableID>dbo_AgeGroups</TableID>
             <ColumnID>IdAge</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="7bfc1677-b16c-43e2-8584-d85951862ccb">
+        <AttributeRelationship dwd:design-time-name="da25a9bb-1383-491a-99fb-d7d63be41837">
           <AttributeID>Age Group</AttributeID>
-          <RelationshipType>Rigid</RelationshipType>
           <Name>Age Group</Name>
           <Visible>false</Visible>
         </AttributeRelationship>
@@ -125,14 +119,14 @@
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
       <ddl300:AttributeHierarchyProcessingState>Unprocessed</ddl300:AttributeHierarchyProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="b5968c29-d340-4cc0-bb71-81efdba1e398">
+    <Attribute dwd:design-time-name="dfeb3b51-f26d-40b9-bccc-6a6cb8a70470">
       <ID>Age Group</ID>
       <Name>Age Group</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="bcdfa3c3-06c3-462f-93d0-045f72028d3c">
+        <KeyColumn dwd:design-time-name="7fb2ba99-08f5-4659-8cca-7af317ff3e6a">
           <DataType>WChar</DataType>
           <DataSize>6</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="f648c30e-1bba-431b-8a96-17aaaccb9953">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="26be667a-c84d-4590-a300-e04fd9c49854">
             <TableID>dbo_AgeGroups</TableID>
             <ColumnID>AgeGroup</ColumnID>
           </Source>

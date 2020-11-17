@@ -1,6 +1,7 @@
 ﻿CREATE TABLE [dbo].[SickNumbers] (
     [IdSN]       INT NOT NULL,
     [SickNumber] INT NULL,
+    [RecoveredNumber] INT NULL,
     [IdDate]     INT NOT NULL,
     [IdGen]      INT NOT NULL,
     [IdPlace]    INT NOT NULL,

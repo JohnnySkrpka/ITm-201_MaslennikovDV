@@ -66,14 +66,14 @@
     <Build Include="dbo\Tables\Dates.sql" />
     <Build Include="dbo\Tables\Genders.sql" />
     <Build Include="dbo\Tables\Medics.sql" />
-    <Build Include="dbo\Tables\АllowancesType.sql" />
+    <Build Include="dbo\Tables\АllowancesName.sql" />
     <Build Include="dbo\Tables\SickNumbers.sql" />
     <Build Include="dbo\Tables\АllowancesNum.sql" />
     <Build Include="dbo\Tables\Diseases.sql" />
     <Build Include="dbo\Tables\Regions.sql" />
     <Build Include="dbo\Tables\Cities.sql" />
     <Build Include="dbo\Tables\Countries.sql" />
-    <Build Include="dbo\Tables\WorldParts.sql" />
     <Build Include="dbo\Tables\Positions.sql" />
+    <Build Include="dbo\Tables\АllowancesType.sql" />
   </ItemGroup>
 </Project>
